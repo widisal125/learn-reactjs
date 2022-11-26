@@ -1,8 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import InsertListTest from './components/InsertListTest';
 
 function App() {
-  return (<h1>Hello World</h1>);
+  return (
+    <>
+      <InsertListTest />
+    </>
+  );
 }
 
 export default App;
