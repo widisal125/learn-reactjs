@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
-  return (<h1>Hello World</h1>);
+  return (<ParentComponent />);
 }
 
 export default App;
