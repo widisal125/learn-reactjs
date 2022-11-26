@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
-  return (<h1>Hello World</h1>);
+  return (<RefsDemo />);
 }
 
 export default App;
