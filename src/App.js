@@ -1,8 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import FunctionClick from './components/FunctionClick';
+import EventBind from './components/EventBind';
+
 
 function App() {
-  return (<h1>Hello World</h1>);
+  return (
+    <>
+      <FunctionClick />
+      <EventBind />
+    </>
+  );
 }
 
 export default App;
