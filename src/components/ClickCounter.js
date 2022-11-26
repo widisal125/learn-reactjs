@@ -3,10 +3,10 @@ import withCounter from './withCounter'
 
 class ClickCounter extends Component {
   render() {
-    const {count, handleCount} = this.props
+    const {count, handleCount, name} = this.props
     return (
       <div>
-        <button onClick={handleCount}>Clicked {count} times</button>
+        <button onClick={handleCount}>{name} Clicked {count} times</button>
       </div>
     )
   }

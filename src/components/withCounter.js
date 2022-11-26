@@ -19,6 +19,7 @@ const withCounter = (WrappedComponent) => {
       return <WrappedComponent 
         count={this.state.count} 
         handleCount={this.handleCount}
+        {...this.props}
       />
     }
   }

@@ -3,10 +3,10 @@ import withCounter from './withCounter'
 
 class HoverCounter extends Component {
   render() {
-    const {count, handleCount} = this.props
+    const {count, handleCount, name} = this.props
     return (
       <div>
-        <label onMouseOver={handleCount}>Hovered {count} times</label>
+        <label onMouseOver={handleCount}>{name} Hovered {count} times</label>
       </div>
     )
   }
