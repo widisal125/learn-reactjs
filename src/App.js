@@ -1,8 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Message from './components/Message';
 
 function App() {
-  return (<h1>Hello World</h1>);
+  return (
+    <Message />
+  );
 }
 
 export default App;
